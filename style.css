@@ -4,6 +4,7 @@ body {
     display: block;
     width: 800px;
     margin-left: 25px;
+    
 }
 
 header {
@@ -42,7 +43,6 @@ a {
 
 #contacts {
     margin-left: 1.5em;
-    padding: 2em 0em;
 }
 
 #contacts li {
@@ -60,8 +60,39 @@ a {
 section {
     display: block;
 }
+
+.block tr > td:first-child {
+    width: 9em;
+}
+
+.block td h4 {
+    vertical-align: top;
+    
+}
+
+.block p, .block ul {
+    width: 80%;
+    margin-bottom: 1em;
+}
+
 .skill-cell {
     display: inline-block;
     vertical-align: top;
     margin-right: 30px;
 }
+
+#experience h3, #experience h4 {
+    display: inline;
+}
+#education h4 {
+    font-weight: normal;
+}
+
+.list ul {
+    padding-bottom: 0.6em;
+}
+
+.list ul, .description p {
+    margin-left: 3em;
+}
+
