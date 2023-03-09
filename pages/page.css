@@ -63,14 +63,17 @@ h1 {
     border-bottom: dotted 1px #bbb;
 }
 
-.name {
-    display: block;
-   
-    margin-left: 350px;
-    margin-right: 350px;
-    margin-top: 15px;
+.container {
+    display: float;
     
 }
+@media screen and (min-width: 80rem) {
+    .container {
+      margin: 1em 15em;
+    }
+  }
+  
+
 p {
     font-size: 0.8em;
 }
