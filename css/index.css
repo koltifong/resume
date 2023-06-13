@@ -4,7 +4,6 @@
 }
 
 body {
-    
     position: relative;
     background-color: #f5f5f5f5;
     color: #333;
@@ -63,6 +62,10 @@ h1 {
     border-bottom: dotted 1px #bbb;
 }
 
+h4 {
+    color: #4391bf;
+}
+
 .container {
     display: float;
     padding-left: 1em;
@@ -79,11 +82,8 @@ p {
     font-size: 0.8em;
 }
 
-.bye {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 12px;
+
+img {
+    width: 250px;
+    border-radius: 5px;
 }
-
-
-
