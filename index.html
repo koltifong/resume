@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/s/main-mobile.css?1664464045" media="only screen and (max-width: 600px)" />
     <title>Tifong Kol</title>
@@ -15,8 +15,8 @@
             <nav>
                 <ul>
                     <li><a class="active" href="#">about</a></li>
-                    <li><a href="/work.html">work</a></li>
-                    <li><a href="/resume.html">resume</a></li>
+                    <li><a href="work.html">work</a></li>
+                    <li><a href="resume.html">resume</a></li>
                 </ul>
             </nav>
         </header>
@@ -29,12 +29,22 @@
             <h4>Something interesting about me</h4><br>
             <p>I don't use <em>social media</em>. I am just a normal person living on this planet earth, I like to spent time with my family and my friends in person. It made me motivated to accomplishing things in my life.</p><br>
             <div class="picture-me">
-                <img src="/assets/me.jpg" alt="picture">
+                <img id="myImg" src="assets/me.jpg" alt="Tifong Kol">
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
             </div>
             <br><p>I promised to myself in every single way which I have to made thing convenience to people around me. I am capable of making things best out of limited resources. </p><br>
             <p>Music is the only way. I couldn't made thing without listening to any kind of music, Rock music, POP, Hip Hop, etc. which makes motivated me. </p><br>
             <hr><br>
-            <p><strong>Coffee = Coding</strong></p>
+            <!-- birthday countdown -->
+            <div class="birthday">
+                <p><strong>My birthday: </strong></p>
+                <p class="countdown" id="demo"></p>
+            </div>
         </div>
     </main>
     <footer>
@@ -46,5 +56,6 @@
             </ul>
         </div>
     </footer>
+    <script src="script/script.js"></script>
 </body>
 </html>
